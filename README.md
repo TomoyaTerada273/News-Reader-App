@@ -1,7 +1,5 @@
 # News Reader App
 
-This was created during my time as a student.
-
 <!--
 You can check out the app on [Heroku](https://coffeee-time.herokuapp.com/)!
 -->
