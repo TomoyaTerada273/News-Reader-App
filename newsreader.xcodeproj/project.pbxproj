@@ -19,6 +19,7 @@
 		E745DFC72AB3381C0065D7CB /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745DFC62AB3381C0065D7CB /* NewsListView.swift */; };
 		E745DFC92AB33FC50065D7CB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745DFC82AB33FC50065D7CB /* SearchView.swift */; };
 		E7AE91942AB837AD00C97D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE91932AB837AD00C97D01 /* ContentView.swift */; };
+		E7D30DD72AF16318001E9F19 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */; };
 		E7DD500C2ABC1D1A00454842 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79D2ABD2ABBFDB400AF4661 /* ARKit.framework */; };
 		E7DD50112ABC1DF500454842 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F15FAB2ABC15F90041A64A /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		E79D2ABD2ABBFDB400AF4661 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		E79D2AC72ABC044700AF4661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7AE91932AB837AD00C97D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreen.swift; path = newsreader/Views/LaunchScreen.swift; sourceTree = "<group>"; };
 		E7F15FAB2ABC15F90041A64A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		E745DDBF2A97271500A356AD = {
 			isa = PBXGroup;
 			children = (
+				E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */,
 				E745DDCA2A97271500A356AD /* newsreader */,
 				E745DDC92A97271500A356AD /* Products */,
 				E745DDD92A973AE100A356AD /* Frameworks */,
@@ -206,6 +209,7 @@
 			files = (
 				E745DFC92AB33FC50065D7CB /* SearchView.swift in Sources */,
 				E745DFB92AB322320065D7CB /* WebView.swift in Sources */,
+				E7D30DD72AF16318001E9F19 /* LaunchScreen.swift in Sources */,
 				E745DFC02AB322D00065D7CB /* ResultJson.swift in Sources */,
 				E745DFC32AB323020065D7CB /* Date+Extensions.swift in Sources */,
 				E745DFC52AB32AD40065D7CB /* NewsItemView.swift in Sources */,
