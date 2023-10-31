@@ -40,7 +40,7 @@
 		E79D2ABD2ABBFDB400AF4661 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		E79D2AC72ABC044700AF4661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7AE91932AB837AD00C97D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreen.swift; path = newsreader/Views/LaunchScreen.swift; sourceTree = "<group>"; };
+		E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		E7F15FAB2ABC15F90041A64A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,6 @@
 		E745DDBF2A97271500A356AD = {
 			isa = PBXGroup;
 			children = (
-				E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */,
 				E745DDCA2A97271500A356AD /* newsreader */,
 				E745DDC92A97271500A356AD /* Products */,
 				E745DDD92A973AE100A356AD /* Frameworks */,
@@ -109,6 +108,7 @@
 		E745DFB72AB321FC0065D7CB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E7D30DD62AF16318001E9F19 /* LaunchScreen.swift */,
 				E745DFC82AB33FC50065D7CB /* SearchView.swift */,
 				E745DFC62AB3381C0065D7CB /* NewsListView.swift */,
 				E745DFB82AB322320065D7CB /* WebView.swift */,
